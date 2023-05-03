@@ -91,3 +91,10 @@ p{
 .indent{
     margin-left: 1em;
 }
+
+/*will target all the p elements in 
+  daily-value section*/
+
+.daily-value p:not(.no-divider) {/*this excludes the .no-divider elements*/
+    border-bottom: 1px solid #888989;
+  }
